@@ -33,3 +33,6 @@ a{
 a:hover{
     color: #DDDADA;
 }
+.slideshow{
+    max-width: 500px;
+}
