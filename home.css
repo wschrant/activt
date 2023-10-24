@@ -6,6 +6,7 @@
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 .header{
     color: white;
@@ -33,12 +34,24 @@ a{
 a:hover{
     color: #DDDADA;
 }
-.slideshow{
+.slideshowsec{
     max-width: 500px;
-    display: flex;
 }
 .section1{
     color: white;
     background-color: #75787b;
     padding: 20px 0;
+    height: 100%;
+    width:100%;
+}
+.ss{
+    display: flex;
+    justify-content: center;
+    height:100%;
+    width: 100%;
+}
+.slideshowsec img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
