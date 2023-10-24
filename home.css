@@ -35,4 +35,10 @@ a:hover{
 }
 .slideshow{
     max-width: 500px;
+    display: flex;
+}
+.section1{
+    color: white;
+    background-color: #75787b;
+    padding: 20px 0;
 }
