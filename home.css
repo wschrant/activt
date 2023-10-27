@@ -55,3 +55,20 @@ a:hover{
     width: 100%;
     object-fit: contain;
 }
+.footer{
+    color: white;
+    background-color: #861f41;
+    padding: 20px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+}
+.footcont{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
