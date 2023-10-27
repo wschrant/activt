@@ -26,6 +26,29 @@ ul{
     list-style: none;
     gap: 20px;
 }
+.browsesec{
+    color: white;
+    padding: 20px 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+.browseboxes{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+}
+.box{
+    background-color: #818181;
+    padding: 80px;
+    border-radius: 10px;
+    width: 500px;
+    font-size: larger;
+    text-align: center;
+}
+.box:hover{
+    background-color: #444343;
+}
 a{
     color: white;
     text-decoration: none;
@@ -35,7 +58,8 @@ a:hover{
     color: #DDDADA;
 }
 .slideshowsec{
-    max-width: 500px;
+    max-width: 100%;
+    object-fit: contain;
 }
 .section1{
     color: white;
@@ -57,7 +81,7 @@ a:hover{
 }
 .footer{
     color: white;
-    background-color: #861f41;
+    background-color: black;
     padding: 20px 0;
     font-family: Arial, Helvetica, sans-serif;
     position: fixed;
@@ -71,4 +95,7 @@ a:hover{
     margin-left: 100px;
     margin-right: 100px;
     padding: 10px;
+}
+.vtquote{
+    font-size: small;
 }
