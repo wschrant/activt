@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 @font-face {
-    font-family: Acherus;
-    src: url();
+    font-family: "merriweather";
+    src: url(https://use.typekit.net/baa3pel.css);
 }
 body{
     display: flex;
@@ -40,7 +40,7 @@ ul{
     color: white;
     font-size: large;
     padding: 0;
-    font-family: Acherus, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
     display: flex;
     justify-content: center;
     
@@ -55,7 +55,7 @@ ul{
 .box{
     background-color: #818181;
     padding: 80px;
-    width: 2000px;
+    width: 3000px;
     font-size: larger;
     text-align: center;
 }
@@ -109,4 +109,10 @@ a:hover{
 }
 .vtquote{
     font-size: small;
+}
+.sec1header{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    align-content: center;
 }
