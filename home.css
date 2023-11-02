@@ -16,7 +16,7 @@ body{
     color: white;
     background-color: #861f41;
     padding: 20px 0;
-    font-family: sans-serif;
+    font-family: arial;
 
 }
 .headertop{
@@ -44,6 +44,7 @@ ul{
     font-weight: bolder;
     display: flex;
     justify-content: center;
+    background-color: #818181;
     
 }
 .browseboxes{
@@ -55,10 +56,11 @@ ul{
 }
 .box{
     background-color: #818181;
-    padding: 80px;
-    width: 3000px;
+    padding: 40px;
+    width: 100%;
     font-size: larger;
     text-align: center;
+    text-shadow: 2px 2px #444343;
 }
 .box:hover{
     background-color: #444343;
@@ -124,7 +126,7 @@ a:hover{
 .infosec{
     display: flex;
     justify-content: space-between;
-    background-color: #E5751F;
+    background-color: #d06411;
     color: #ffffff;
     padding: 20px 0;
     font-family: arial;
@@ -138,22 +140,29 @@ a:hover{
     border: 2px solid #ffffff;
     padding-left: 10px;
     padding-right: 10px;
+    border-radius: 10px;
+    background-color: #E5751F;
 }
 .rightside{
     display: flex;
     flex-direction: column;
     text-align: center;
+    flex-wrap: wrap;
     width: 100%;
     border: 2px solid #ffffff;
     padding-left: 20px;
     padding-right: 20px;
+    border-radius: 10px;
+    background-color: #E5751F;
 }
 .leftcont{
     font-size: 30px;
+    text-shadow: 2px 2px #444343;
+
 }
 .rightcont{
     font-size: 30px;
-    font-weight: 100;
+    text-shadow: 2px 2px #444343;
 }
 .info{
     display: flex;
@@ -167,8 +176,10 @@ a.logina{
 .righthead{
     font-weight: 900;
     font-size: 40px;
+    text-shadow: 2px 2px #444343;
 }
 .lefthead{
     font-weight: 900;
     font-size: 40px;
+    text-shadow: 2px 2px #444343;
 }
