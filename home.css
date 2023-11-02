@@ -40,7 +40,8 @@ ul{
     color: white;
     font-size: large;
     padding: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-family: arial;
+    font-weight: bolder;
     display: flex;
     justify-content: center;
     
@@ -62,10 +63,13 @@ ul{
 .box:hover{
     background-color: #444343;
 }
-a{
+li{
     color: white;
-    text-decoration: none;
     font-size: 18px;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
 }
 a:hover{
     color: #DDDADA;
@@ -96,7 +100,7 @@ a:hover{
     color: white;
     background-color: black;
     padding: 20px 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
     bottom: 0;
     width: 100%;
 }
@@ -115,6 +119,7 @@ a:hover{
     justify-content: center;
     padding: 10px 0;
     align-content: center;
+    font-family: arial;
 }
 .infosec{
     display: flex;
@@ -122,26 +127,41 @@ a:hover{
     background-color: #E5751F;
     color: #ffffff;
     padding: 20px 0;
+    font-family: arial;
 }
 .leftside{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    text-align: center;
 }
 .rightside{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 }
 .leftcont{
     font-size: 30px;
 }
 .rightcont{
     font-size: 30px;
+    font-weight: 100;
 }
 .info{
     display: flex;
     margin-left: 100px;
     margin-right: 100px;
     gap: 20px;
+}
+a.logina{
+    text-decoration: underline;
+}
+.righthead{
+    font-weight: 900;
+    font-size: 40px;
+}
+.lefthead{
+    font-weight: 900;
+    font-size: 40px;
 }
