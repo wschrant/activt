@@ -12,10 +12,30 @@
     transform: translate(-50%,-50%);
     width: 500px;
     background-color: #861F41;
+    padding: 20px;
+    border-radius: 20px;
 }
 .center h1{
     text-align: center;
 }
 .txt_field{
     text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.post1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+input[type=txt_field]{
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: #861F41;
+}
+input[type=submit]{
+    color: black;
+    width: 100px;
 }
