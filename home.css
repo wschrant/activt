@@ -116,3 +116,32 @@ a:hover{
     padding: 10px 0;
     align-content: center;
 }
+.infosec{
+    display: flex;
+    justify-content: space-between;
+    background-color: #E5751F;
+    color: #ffffff;
+    padding: 20px 0;
+}
+.leftside{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.rightside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.leftcont{
+    font-size: 30px;
+}
+.rightcont{
+    font-size: 30px;
+}
+.info{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 20px;
+}
