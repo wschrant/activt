@@ -22,14 +22,16 @@ body{
 .headertop{
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
     padding: 5px;
+    align-items: center;
 
 }
 .headlogo{
     font-family:'Courier New', Courier, monospace;
     display: flex;
+    font-size: 2vmin;
 } 
 ul{
     display: flex;
@@ -50,12 +52,12 @@ ul{
 .browseboxes{
     display: flex;
     align-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 15vmin;
+    margin-right: 15vmin;
 }
 .box{
     background-color: #818181;
-    padding: 30px;
+    padding: 20px;
     width: 100%;
     font-size: 2vmin;
     text-align: center;
@@ -81,8 +83,8 @@ a:hover{
     display: flex;
     flex-direction: row;
     padding: 20px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 15vmin;
+    margin-right: 15vmin;
     align-items: center;
     gap: 20px;
 }
@@ -139,9 +141,10 @@ a:hover{
 .footcont{
     display: flex;
     justify-content: space-between;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
     padding: 10px;
+    align-items: center;
 }
 .vtquote{
     font-size: .7vw;
@@ -189,8 +192,8 @@ a:hover{
 }
 .info{
     display: flex;
-    margin-left: 20vmin;
-    margin-right: 20vmin;
+    margin-left: 15vmin;
+    margin-right: 15vmin;
     gap: 20px;
 }
 a.logina{
@@ -209,4 +212,9 @@ a.logina{
 .recsports{
     width: 16vmin;
     height: 3vmin;
+}
+.ipost{
+    width: 100%;
+    height: auto;
+    max-width: 20vmin;
 }
