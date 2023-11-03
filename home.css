@@ -87,22 +87,26 @@ a:hover{
     margin-right: 15vmin;
     align-items: center;
     gap: 20px;
+    justify-content: center;
 }
 .leftwords{
     font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    max-height: auto;
+
 }
 .sec1header{
-    font-size: 4vw;
+    font-size: 3vw;
 }
 .sec1header2{
-    font-size: 4vw;
+    font-size: 3vw;
 }
 .sec1para{
     font-size: 2vw;
 }
 .sec1img{
-    width: 600;
-    height: 400;
+    max-width: 600px;
+    max-height: 400px;
     width: 60%;
     height:60%;
     box-shadow: 5px 10px black;
