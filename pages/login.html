@@ -3,21 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="../pages/styles/signup.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="../pages/styles/login.css">
 </head>
 <body>
     <div class="center" id="login-box">
         <i class="fa-solid fa-circle-xmark" onclick="closelogin()"></i>
         <div class="headerl">
             <h1 class="activt">ActiVT</h1>
-            <h1>Sign Up</h1>
+            <h1>Login</h1>
         </div>
         <form class="postl" method="post">
-            <div class="txt_field">
-                <input type="email" required>
-                <label>Email</label>
-            </div>
             <div class="txt_field">
                 <input type="username" required>
                 <label>Username</label>
@@ -26,13 +22,10 @@
                 <input type="password" required>
                 <label>Password</label>
             </div>
-            <div class="txt_field">
-                <input type="password" required>
-                <label>Re-enter Password</label>
-            </div>
-            <input type="submit" value="Sign Up">
-            <div class="login_link">
-                <p>Already have an account? <a href="../pages/login.html">Login</a></p>
+            <input type="submit" value="Login">
+            <div class="pass">Forgot Password?</div>
+            <div class="signup_link">
+                <a href="../pages/signin.html">Sign Up</a>
             </div>
         </form>
     </div>
