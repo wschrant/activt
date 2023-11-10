@@ -16,7 +16,7 @@ body{
 .header{
     color: white;
     background-color: #861f41;
-    padding: 15px 0;
+    padding: 3vmin 0;
     font-family: arial;
 
 }
@@ -25,7 +25,7 @@ body{
     justify-content: space-between;
     margin-left: 10vmin;
     margin-right: 10vmin;
-    padding: 5px;
+    padding: .5vmin;
     align-items: center;
 
 }
@@ -307,4 +307,7 @@ input[type=submit]{
     right: 0;
     background: rgba(0,0,0,0.8);
     visibility: hidden;
+}
+.headlogin:hover{
+    color: #DDDADA;
 }
