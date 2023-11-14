@@ -7,6 +7,7 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    font-family: arial;
 }
 .header{
     color: white;
@@ -44,4 +45,66 @@ a{
 }
 a:hover{
     color: #DDDADA;
+}
+.abouthead{
+    background-color: #75787b;
+    color: white;
+    padding: 5vmin 0;
+    text-align: center;
+    font-size: 3vmin;
+}
+h1{
+    text-align: center;
+}
+.feats{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vmin;
+    margin-right:10vmin;
+}
+.question{
+    text-align: center;
+}
+.goal{
+    text-align: center;
+}
+.sec2{
+    margin-left: 10vmin;
+    margin-right:10vmin;
+}
+p{
+    font-size: 2.5vmin;
+    flex-wrap: wrap;
+}
+.sec1{
+    background-color: #E5751F;
+    padding: 4vmin 0;
+    color: white;
+}
+.feat{
+    border-color: black;
+    border: 5px;
+}
+.footer{
+    color: white;
+    background-color: black;
+    padding: 20px 0;
+    font-family: Arial;
+    bottom: 0;
+    width: 100%;
+}
+.footcont{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    padding: 10px;
+    align-items: center;
+}
+.vtquote{
+    font-size: .7vw;
+}
+.recsports{
+    width: 16vmin;
+    height: 3vmin;
 }
