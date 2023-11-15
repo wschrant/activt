@@ -71,6 +71,7 @@ h1{
 .sec2{
     margin-left: 10vmin;
     margin-right:10vmin;
+    padding: 4vmin 0;
 }
 p{
     font-size: 2.5vmin;
@@ -88,7 +89,7 @@ p{
 .footer{
     color: white;
     background-color: black;
-    padding: 20px 0;
+    padding: 3vmin 0;
     font-family: Arial;
     bottom: 0;
     width: 100%;
@@ -107,4 +108,7 @@ p{
 .recsports{
     width: 16vmin;
     height: 3vmin;
+}
+.sec3{
+    padding: 4vmin 0;
 }
