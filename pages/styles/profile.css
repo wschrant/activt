@@ -13,7 +13,9 @@ body{
     background-color: #861f41;
     padding: 15px 0;
     font-family: arial;
-
+    position: fixed;
+    left: 0px;
+    right: 0px;
 }
 .headertop{
     display: flex;
@@ -44,4 +46,31 @@ a{
 }
 a:hover{
     color: #DDDADA;
+}
+.prosec{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    gap: 10px;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow: auto;
+}
+.proinfo{
+    display: flex;
+    flex-direction: column;
+    background-color: #861f41;
+    padding: 10px;
+}
+li.lith{
+    color: black;
+}
+ul.profileitems{
+    display: flex;
+    flex-direction: column;
 }
