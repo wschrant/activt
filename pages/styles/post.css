@@ -1,21 +1,17 @@
 .postbody{
-    border-style: solid;
+    border: solid rgb(67, 64, 64);
     width: 300px;
     height: 400px;
     position: relative;
     background-color: #E5E1E6;
 }
-.title{
+.ptitle{
     background-color: #861F41;
     width: 300px;
     height: 75px;
     position: absolute;
     top: 0;
     text-align: center;
-    gap: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
 }
 .likes{
     background-color: #75787b;
@@ -27,22 +23,24 @@
     justify-content: left;
     align-items: center;
 }
-.cont{
+.pcont{
     background-color: #E5E1E6;
     height: 275px;
     width: 300px;
+    position: absolute;
+    bottom: 50px
 }
 .icons {
     margin-left: 10px;
 }
-.header{
+.pheader{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:large;
+    font-size:x-large;
 }
-.postinfo{
-    display: flex;
-    color: white;
-    font-size: small;
-    gap: 20px;
+.contbody{
+    color: black;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-family: Arial, Helvetica, sans-serif;
 }
