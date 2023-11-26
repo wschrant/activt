@@ -130,3 +130,27 @@ ul.profileitems{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+.footer{
+    color: white;
+    background-color: black;
+    padding: 20px 0;
+    font-family: Arial;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
+.footcont{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    padding: 10px;
+    align-items: center;
+}
+.vtquote{
+    font-size: .7vw;
+}
+.recsports{
+    width: 16vmin;
+    height: 3vmin;
+}
