@@ -12,6 +12,7 @@
     justify-content: space-between;
     color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px black;
 }
 body{
     background-color: rgb(226, 220, 220);

@@ -78,6 +78,21 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 20vmin;
+    margin-right: 20vmin;
+}
+.post{
+    background-color: #E5751F;
+    padding: 10px ;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 25px;
+    border: white solid 2px;
 }
