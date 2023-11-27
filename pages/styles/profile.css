@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.header{
+    color: white;
+    background-color: #861f41;
+    padding: 15px 0;
+    font-family: arial;
+    left: 0px;
+    right: 0px;
+}
+.headertop{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    padding: 5px;
+    align-items: center;
+
+}
+.headlogo{
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    font-size: 2vmin;
+} 
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+li{
+    color: white;
+    font-size: 1.5vmin;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    color: #DDDADA;
+}
+.prosec{
+    display: flex;
+    justify-content:center;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 10px;
+    margin-top: 10px;
+}
+.posts{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 1000px;
+    
+}
+.proinfo{
+    display: flex;
+    flex-direction: column;
+    background-color:#E5751F;
+    padding: 10px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul.profileitems{
+    display: flex;
+    flex-direction: column;
+}
+.postbody{
+    border: solid rgb(67, 64, 64);
+    width: 300px;
+    height: 400px;
+    position: relative;
+    background-color: #E5E1E6;
+}
+.ptitle{
+    background-color: #861F41;
+    width: 300px;
+    height: 75px;
+    position: absolute;
+    top: 0;
+    text-align: center;
+}
+.likes{
+    background-color: #75787b;
+    width: 300px;
+    height: 50px;
+    position:  absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.pcont{
+    background-color: #E5E1E6;
+    height: 275px;
+    width: 300px;
+    position: absolute;
+    bottom: 50px
+}
+.icons {
+    margin-left: 10px;
+}
+.pheader{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:x-large;
+}
+.contbody{
+    color: black;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.profileitems{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer{
+    color: white;
+    background-color: black;
+    padding: 20px 0;
+    font-family: Arial;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+}
+.footcont{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    padding: 10px;
+    align-items: center;
+}
+.vtquote{
+    font-size: .7vw;
+}
+.recsports{
+    width: 16vmin;
+    height: 3vmin;
+}

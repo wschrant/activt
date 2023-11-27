@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: arial;
+}
+.header{
+    color: white;
+    background-color: #861f41;
+    padding: 15px 0;
+    font-family: arial;
+
+}
+.headertop{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    padding: 5px;
+    align-items: center;
+
+}
+.headlogo{
+    font-family:'Courier New', Courier, monospace;
+    display: flex;
+    font-size: 2vmin;
+} 
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+li{
+    color: white;
+    font-size: 1.5vmin;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    color: #DDDADA;
+}
+.abouthead{
+    background-color: #75787b;
+    color: white;
+    padding: 5vmin 0;
+    text-align: center;
+    font-size: 3vmin;
+}
+h1{
+    text-align: center;
+}
+.feats{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15vmin;
+    margin-right:15vmin;
+    gap: 2vmin;
+}
+.question{
+    text-align: center;
+}
+.goal{
+    text-align: center;
+}
+.sec2{
+    margin-left: 10vmin;
+    margin-right:10vmin;
+    padding: 4vmin 0;
+}
+p{
+    font-size: 2.5vmin;
+    flex-wrap: wrap;
+}
+.sec1{
+    background-color: #E5751F;
+    padding: 4vmin 0;
+    color: white;
+}
+.footer{
+    color: white;
+    background-color: black;
+    padding: 3vmin 0;
+    font-family: Arial;
+    bottom: 0;
+    width: 100%;
+}
+.footcont{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+    padding: 10px;
+    align-items: center;
+}
+.vtquote{
+    font-size: .7vw;
+}
+.recsports{
+    width: 16vmin;
+    height: 3vmin;
+}
+.sec3{
+    padding: 4vmin 0;
+}
+p.feat{
+    border: black 1px solid;
+    padding: 5px;
+    border-radius: 5px;
+}
